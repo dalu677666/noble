@@ -1,0 +1,193 @@
+/* Reset and general styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #11071f;
+  color: #FFFFFF;
+      font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1a0b2e;
+
+}
+
+header .logo {
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.card{
+padding: 20px;
+  background-color: black;
+  border-radius: 8px;
+display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+
+}
+/* header nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+
+
+
+
+
+} */
+.navbar ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+
+}
+
+.navbar a:hover {
+  background-color: gray;
+
+}
+
+.navbar li {
+  float: right;
+}
+
+
+
+
+
+
+
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.intro .avatar img {
+  width: 300px;
+/*   border-radius: 50%;
+ */  margin-bottom: 20px;
+}
+
+.intro h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.intro h2 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #9B9B9B;
+}
+
+.work-experience,
+.skills,
+.projects {
+  padding: 40px 20px;
+  text-align: center;
+  justify-content: center;
+}
+.work-experience h2,
+.skills h2,
+.projects h2 {
+  font-size: 28px;
+   margin-bottom: 20px;
+ }
+
+.experience-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 150px;
+  text-align: center;
+  justify-content: center;
+  place-content: center;
+
+}
+
+.experience-card {
+  padding: 20px;
+  background-color: #190634;
+  border-radius: 8px;
+  text-align: center;
+  justify-content: center;
+  place-content: center;
+
+}
+
+.skills-icons span {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #21213A;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.project {
+  background-color: #21213A;
+  padding: 20px;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #11071f;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #9B9B9B;
+  font-size: 16px;
+  text-decoration: none;
+}
+section{
+  text-align: center;
+  justify-content: center;
+}
+
+.circle {
+  display: inline-block;
+  width: 90px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ 
+
+
